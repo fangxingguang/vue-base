@@ -1,6 +1,6 @@
-# console-client
+# vue-base
 
-> console
+> base
 
 ## Build Setup
 
