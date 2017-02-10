@@ -1,8 +1,8 @@
 {
-  "name": "console-client",
+  "name": "vue-base",
   "version": "1.0.0",
-  "description": "console",
-  "author": "fangxingguang <fangxingguang@grandcloud.cn>",
+  "description": "base",
+  "author": "fangxingguang",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
