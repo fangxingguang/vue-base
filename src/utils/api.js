@@ -1,7 +1,9 @@
+import Vue from 'vue'
 import axios from 'axios'
+import  './mock'
 
 axios.defaults.baseURL = 'https://api.example.com'
-axios.defaults.headers.common['Authorization'] = AUTH_TOKEN
+//axios.defaults.headers.common['Authorization'] = AUTH_TOKEN
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 axios.defaults.withCredentials = true
 
@@ -22,3 +24,5 @@ axios.interceptors.response.use(function (response) {
     // Do something with response error
     return Promise.reject(error)
 });
+
+Vue.prototype.$http = axios

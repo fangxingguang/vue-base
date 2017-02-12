@@ -1,8 +1,9 @@
 <template>
   <div class="layout">
     <h1>{{ msg }}</h1>
-    <router-link to="/">Go to index</router-link>
-    <router-link to="/index2">Go to index2</router-link>
+    路由测试：
+    <router-link to="/">首页</router-link>
+    <router-link to="/index2">第二页</router-link>
     <router-view></router-view>
   </div>
 </template>
@@ -12,7 +13,7 @@ export default {
   name: 'layout',
   data () {
     return {
-      msg: 'this is layout'
+      msg: '我是布局模版'
     }
   }
 }

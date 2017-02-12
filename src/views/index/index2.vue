@@ -25,7 +25,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'this is index2'
+      msg: 'index2'
     }
   }
 }
