@@ -5,8 +5,8 @@ import App from './App'
 import router from './router'
 import store from './vuex/store'
 import { sync } from 'vuex-router-sync'
-import './utils/api'
-
+import './api'
+import './assets/css/common.css'
 // sync the router with the vuex store.
 // this registers `store.state.route`
 sync(store, router)

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import axios from 'axios'
-import  './mock'
 
 axios.defaults.baseURL = 'https://api.example.com'
 //axios.defaults.headers.common['Authorization'] = AUTH_TOKEN
